@@ -2,13 +2,18 @@
 // Code for "show me the money"
 
 function onClick() {
-   // TODO:  add code for exercise 1
-   // Hint: look up the css property "display" to hide or show the banknote
+    var x = document.getElementById("money");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
 } 
  
 
 
 // Code for "live update"
 function onChange(value) {
-    // TODO: add code for exercise 2
+    const text = document.getElementById('text');
+    text.innerHTML = value;
 }

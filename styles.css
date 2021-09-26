@@ -1,1 +1,14 @@
- /* styling */
+.border {
+  border-width: 3px;
+  border-color: blue;
+  border-style: solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+.button {
+  border-width: 3px;
+  border-color: red;
+  border-style: solid;
+  color: red;
+}
